@@ -50,8 +50,8 @@ const ServiceCard = ({
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                 style={{
                     background: `radial-gradient(600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), ${badgeColor === 'gold' ? 'rgba(212,175,55,0.06)' :
-                            badgeColor === 'orange' ? 'rgba(255,107,74,0.06)' :
-                                'rgba(16,185,129,0.06)'
+                        badgeColor === 'orange' ? 'rgba(255,107,74,0.06)' :
+                            'rgba(16,185,129,0.06)'
                         }, transparent 40%)`
                 }}
             />
@@ -60,8 +60,10 @@ const ServiceCard = ({
                 {/* Header */}
                 <div className="flex justify-between items-start mb-6">
                     <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/80 group-hover:scale-110 group-hover:border-white/20 transition-all duration-300">
+                        {/* @ts-ignore */}
                         <iconify-icon icon={icon} width="24" height="24" />
                     </div>
+
                     <span
                         className={`px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase border ${badgeColors[badgeColor]}`}
                     >
