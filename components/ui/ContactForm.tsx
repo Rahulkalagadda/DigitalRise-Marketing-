@@ -1,6 +1,8 @@
 'use client';
 
 import { useState } from 'react';
+import { ArrowRight } from 'lucide-react';
+
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -129,7 +131,7 @@ export default function ContactForm() {
                         className="text-xs text-white/40 hover:text-[#D4AF37] transition-colors inline-flex items-center gap-2"
                     >
                         Or book a call
-                        <iconify-icon icon="lucide:arrow-right" className="text-xs"></iconify-icon>
+                        <ArrowRight className="w-3 h-3 text-xs" />
                     </a>
                 </div>
             </form>
