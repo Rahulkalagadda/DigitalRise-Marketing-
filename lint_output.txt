@@ -1,0 +1,17 @@
+
+> digitalrise-marketing@0.1.0 lint
+> eslint
+
+
+C:\Users\Lenovo\Desktop\New folder (4)\digitalrise-marketing\app\page.tsx
+  325:38  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Lenovo\Desktop\New folder (4)\digitalrise-marketing\components\layout\Header.tsx
+   4:8   warning  'Image' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  28:21  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Lenovo\Desktop\New folder (4)\digitalrise-marketing\components\ui\ServiceCard.tsx
+  3:10  warning  'ReactNode' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 4 problems (1 error, 3 warnings)
+
