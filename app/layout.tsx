@@ -7,6 +7,9 @@ import { AIChatbot } from "@/components/AIChatbot";
 export const metadata: Metadata = {
   title: "DigitalRise Marketing | Premium Service Architecture",
   description: "We synthesize cutting-edge AI, performance advertising, and bespoke web architecture to scale high-growth brands at velocity.",
+  verification: {
+    google: "VR-prJIPW9eodXQ1cS0jzighBwD1bzdnx1RKcFTEBKU", // TODO: Replace this with your code from Google Search Console
+  },
 };
 
 export default function RootLayout({
