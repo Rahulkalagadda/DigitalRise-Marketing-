@@ -10,10 +10,12 @@ export const metadata: Metadata = {
     default: "DigitalRise Marketing | Best Digital Marketing Agency in Mumbai & Badlapur",
     template: "%s | DigitalRise Marketing",
   },
-  description: "Top-rated Digital Marketing Agency in Mumbai & Badlapur. We specialize in AI Automation, Paid Ads, and Web Architecture for brands across India.",
+  description: "DigitalRise Marketing is a premier Media House & Digital Solutions provider in Mumbai & Badlapur. We specialize in AI Automation, Paid Ads, and Web Architecture.",
   keywords: [
-    "Digital Marketing Agency in Mumbai",
+    "Marketing Agency in Mumbai",
     "Best Digital Marketing Agency in Badlapur",
+    "Media House Mumbai",
+    "Digital Solutions India",
     "AI Marketing Agency India",
     "Digital Marketing Services Mumbai",
     "Web Development Badlapur",
@@ -42,7 +44,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "description": "DigitalRise Marketing is a premium digital marketing agency in Mumbai & Badlapur specializing in AI, Ads, and Web Architecture.",
+  "description": "DigitalRise Marketing is a premier Media House and Digital Solutions agency in Mumbai & Badlapur specializing in AI, Ads, and Web Architecture.",
   "name": "DigitalRise Marketing",
   "image": "https://www.digitalrisemarketing.in/icon.png",
   "@id": "https://www.digitalrisemarketing.in",
