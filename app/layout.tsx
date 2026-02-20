@@ -52,7 +52,7 @@ const jsonLd = {
   "telephone": "+91XXXXXXXXXX", // User should update this
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Badlapur East",
+    "streetAddress": "Hendrepada, Badlapur West",
     "addressLocality": "Badlapur",
     "addressRegion": "Maharashtra",
     "postalCode": "421503",

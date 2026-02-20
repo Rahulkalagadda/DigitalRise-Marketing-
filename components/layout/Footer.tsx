@@ -65,7 +65,7 @@ export default function Footer() {
                     <ul className="space-y-4">
                         <li className="flex items-start gap-3 text-white/60 text-sm group cursor-pointer hover:text-white transition-colors">
                             <MapPin size={18} className="text-[#D4AF37] shrink-0 mt-0.5" />
-                            <span>Badlapur East, Mumbai,<br />Maharashtra, India - 421503</span>
+                            <span>Hendrepada, Badlapur West,<br />Maharashtra, India - 421503</span>
                         </li>
                         <li className="flex items-center gap-3 text-white/60 text-sm group cursor-pointer hover:text-white transition-colors">
                             <Mail size={18} className="text-[#D4AF37] shrink-0" />
