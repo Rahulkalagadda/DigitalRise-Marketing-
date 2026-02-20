@@ -5,10 +5,29 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { AIChatbot } from "@/components/AIChatbot";
 
 export const metadata: Metadata = {
-  title: "DigitalRise Marketing | Premium Service Architecture",
+  metadataBase: new URL("https://www.digitalrise.marketing"),
+  title: {
+    default: "DigitalRise Marketing | Premium Service Architecture",
+    template: "%s | DigitalRise",
+  },
   description: "We synthesize cutting-edge AI, performance advertising, and bespoke web architecture to scale high-growth brands at velocity.",
+  keywords: ["Digital Marketing", "AI Automation", "Web Design", "Paid Advertising", "SEO"],
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   verification: {
-    google: "VR-prJIPW9eodXQ1cS0jzighBwD1bzdnx1RKcFTEBKU", // TODO: Replace this with your code from Google Search Console
+    google: "VR-prJIPW9eodXQ1cS0jzighBwD1bzdnx1RKcFTEBKU",
   },
 };
 
