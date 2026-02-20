@@ -39,6 +39,11 @@ export const metadata: Metadata = {
   verification: {
     google: "VR-prJIPW9eodXQ1cS0jzighBwD1bzdnx1RKcFTEBKU",
   },
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 const jsonLd = {
