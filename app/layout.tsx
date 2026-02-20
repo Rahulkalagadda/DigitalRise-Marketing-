@@ -41,7 +41,8 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "ProfessionalService",
+  "description": "DigitalRise Marketing is a premium digital marketing agency in Mumbai & Badlapur specializing in AI, Ads, and Web Architecture.",
   "name": "DigitalRise Marketing",
   "image": "https://www.digitalrisemarketing.in/icon.png",
   "@id": "https://www.digitalrisemarketing.in",
