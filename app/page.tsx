@@ -382,6 +382,25 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* Location / Service Area Section */}
+        <section className="py-20 px-8 bg-dr-navy/50 border-t border-white/5">
+          <div className="max-w-7xl mx-auto text-center">
+            <h4 className="text-[10px] font-black tracking-[0.4em] text-dr-gold uppercase mb-8">
+              Service Area
+            </h4>
+            <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
+              <div className="text-xl font-black text-white">BADLAPUR</div>
+              <div className="text-xl font-black text-white">MUMBAI</div>
+              <div className="text-xl font-black text-white">MAHARASHTRA</div>
+              <div className="text-xl font-black text-white">INDIA</div>
+              <div className="text-xl font-black text-white">GLOBAL</div>
+            </div>
+            <p className="mt-8 text-dr-text/30 text-xs font-medium tracking-tight">
+              Providing premium digital marketing and AI solutions in Badlapur, Mumbai, and across India.
+            </p>
+          </div>
+        </section>
+
       </main>
 
       <Footer />

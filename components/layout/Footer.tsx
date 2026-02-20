@@ -59,6 +59,20 @@ export default function Footer() {
                         </ul>
                     </div>
                 ))}
+
+                <div>
+                    <h4 className="font-display font-bold text-white text-lg mb-6">Contact</h4>
+                    <ul className="space-y-4">
+                        <li className="flex items-start gap-3 text-white/60 text-sm group cursor-pointer hover:text-white transition-colors">
+                            <MapPin size={18} className="text-[#D4AF37] shrink-0 mt-0.5" />
+                            <span>Badlapur East, Mumbai,<br />Maharashtra, India - 421503</span>
+                        </li>
+                        <li className="flex items-center gap-3 text-white/60 text-sm group cursor-pointer hover:text-white transition-colors">
+                            <Mail size={18} className="text-[#D4AF37] shrink-0" />
+                            <span>contact@digitalrisemarketing.in</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div className="max-w-7xl mx-auto pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">

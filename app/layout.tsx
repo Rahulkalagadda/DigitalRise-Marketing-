@@ -7,11 +7,19 @@ import { AIChatbot } from "@/components/AIChatbot";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.digitalrisemarketing.in"),
   title: {
-    default: "DigitalRise Marketing | Premium Service Architecture",
-    template: "%s | DigitalRise",
+    default: "DigitalRise Marketing | Best Digital Marketing Agency in Mumbai & Badlapur",
+    template: "%s | DigitalRise Marketing",
   },
-  description: "We synthesize cutting-edge AI, performance advertising, and bespoke web architecture to scale high-growth brands at velocity.",
-  keywords: ["Digital Marketing", "AI Automation", "Web Design", "Paid Advertising", "SEO"],
+  description: "Top-rated Digital Marketing Agency in Mumbai & Badlapur. We specialize in AI Automation, Paid Ads, and Web Architecture for brands across India.",
+  keywords: [
+    "Digital Marketing Agency in Mumbai",
+    "Best Digital Marketing Agency in Badlapur",
+    "AI Marketing Agency India",
+    "Digital Marketing Services Mumbai",
+    "Web Development Badlapur",
+    "SEO Services Mumbai",
+    "Performance Marketing India"
+  ],
   alternates: {
     canonical: "/",
   },
@@ -31,6 +39,46 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "DigitalRise Marketing",
+  "image": "https://www.digitalrisemarketing.in/icon.png",
+  "@id": "https://www.digitalrisemarketing.in",
+  "url": "https://www.digitalrisemarketing.in",
+  "telephone": "+91XXXXXXXXXX", // User should update this
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Badlapur East",
+    "addressLocality": "Badlapur",
+    "addressRegion": "Maharashtra",
+    "postalCode": "421503",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.1678,
+    "longitude": 73.2322
+  },
+  "areaServed": ["Badlapur", "Mumbai", "Maharashtra", "India"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "20:00"
+  },
+  "sameAs": [
+    "https://www.instagram.com/digitalrisemarketing"
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -42,6 +90,10 @@ export default function RootLayout({
         <Script
           src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"
           strategy="beforeInteractive"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
       <body className="antialiased">
