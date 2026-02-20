@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://www.digitalrise.marketing' // Replace with your actual domain
+    const baseUrl = 'https://www.digitalrisemarketing.in' // Replace with your actual domain
 
     return [
         {

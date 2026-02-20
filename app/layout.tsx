@@ -5,7 +5,7 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { AIChatbot } from "@/components/AIChatbot";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.digitalrise.marketing"),
+  metadataBase: new URL("https://www.digitalrisemarketing.in"),
   title: {
     default: "DigitalRise Marketing | Premium Service Architecture",
     template: "%s | DigitalRise",
