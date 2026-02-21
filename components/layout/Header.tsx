@@ -52,12 +52,12 @@ const Header = () => {
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between relative z-50">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
-                    <div className="relative w-[300px] h-[80px] group-hover:scale-105 transition-transform">
+                    <div className="relative w-[220px] h-[60px] group-hover:scale-105 transition-transform">
                         <Image
                             src="/Proposal_-_Proposal-removebg-preview.png"
                             alt="DigitalRise"
                             fill
-                            className="object-contain object-left scale-150 origin-left"
+                            className="object-contain object-left scale-135 origin-left"
                             priority
                         />
                     </div>
